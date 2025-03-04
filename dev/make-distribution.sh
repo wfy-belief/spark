@@ -166,7 +166,7 @@ fi
 # Build uber fat JAR
 cd "$SPARK_HOME"
 
-export MAVEN_OPTS="${MAVEN_OPTS:--Xss128m -Xmx4g -XX:ReservedCodeCacheSize=128m}"
+export MAVEN_OPTS="${MAVEN_OPTS:--Xss128m -Xmx16g -XX:ReservedCodeCacheSize=1024m}"
 
 # Store the command as an array because $MVN variable might have spaces in it.
 # Normal quoting tricks don't work.
