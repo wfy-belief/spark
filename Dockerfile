@@ -1,4 +1,4 @@
-FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/library/busybox:latest
+FROM docker.m.daocloud.io/library/busybox
 
 COPY spark-4.0.1-SNAPSHOT-bin-spark.tgz .
 
