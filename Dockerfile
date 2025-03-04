@@ -1,4 +1,4 @@
-FROM docker.1panel.live/library/busybox:latest
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/library/busybox:latest
 
 COPY spark-4.0.1-SNAPSHOT-bin-spark.tgz .
 
