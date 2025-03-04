@@ -1,4 +1,4 @@
-FROM dockerproxy.net/library/busybox:latest
+FROM docker.1panel.live/library/busybox:latest
 
 COPY spark-4.0.1-SNAPSHOT-bin-spark.tgz .
 
