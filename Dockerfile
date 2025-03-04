@@ -1,4 +1,4 @@
-FROM hub.fast360.xyz/busybox:latest
+FROM hub.fast360.xyz/library/busybox:latest
 
 COPY spark-4.0.1-SNAPSHOT-bin-spark.tgz .
 
