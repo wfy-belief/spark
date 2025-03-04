@@ -1,4 +1,4 @@
-FROM docker.1panel.live/busybox:latest
+FROM hub.fast360.xyz/busybox:latest
 
 COPY spark-4.0.1-SNAPSHOT-bin-spark.tgz .
 
