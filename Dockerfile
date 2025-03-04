@@ -1,4 +1,4 @@
-FROM docker.fxxk.dedyn.io/busybox:latest
+FROM docker.1panel.live/busybox:latest
 
 COPY spark-4.0.1-SNAPSHOT-bin-spark.tgz .
 
